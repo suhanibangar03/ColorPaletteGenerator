@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="circle circle-one"></div>
+    <div class="circle circle-two"></div>
+    <div class="circle circle-three"></div>
+    <div class="circle circle-four"></div>
+    <div class="circle circle-five"></div>
+
+    <header class="header">
+        <div class="palette-icon">🎨</div>
+
+        <h1>Color <span>Palette</span> Generator</h1>
+
+        <p>
+            Discover beautiful color combinations for your next project
+        </p>
+    </header>
+
+    <main class="container">
+
+        <div class="palette" id="palette">
+
+            <div class="color-card">
+                <div class="color-box" style="background: #FF6B6B"></div>
+                <div class="color-info">
+                    <h2>#FF6B6B</h2>
+                    <button class="copy-btn" aria-label="Copy color">▢</button>
+                </div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-box" style="background: #FFD166"></div>
+                <div class="color-info">
+                    <h2>#FFD166</h2>
+                    <button class="copy-btn" aria-label="Copy color">▢</button>
+                </div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-box" style="background: #06D6A0"></div>
+                <div class="color-info">
+                    <h2>#06D6A0</h2>
+                    <button class="copy-btn" aria-label="Copy color">▢</button>
+                </div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-box" style="background: #4D96FF"></div>
+                <div class="color-info">
+                    <h2>#4D96FF</h2>
+                    <button class="copy-btn" aria-label="Copy color">▢</button>
+                </div>
+            </div>
+
+            <div class="color-card">
+                <div class="color-box" style="background: #9B5DE5"></div>
+                <div class="color-info">
+                    <h2>#9B5DE5</h2>
+                    <button class="copy-btn" aria-label="Copy color">▢</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="generate-section">
+            <button id="generate-btn">
+                <span class="refresh-icon">↻</span>
+                Generate Palette
+            </button>
+
+            <p id="message" aria-live="polite"></p>
+        </div>
+
+        <section class="features">
+
+            <div class="feature">
+                <div class="feature-icon purple-icon">🪄</div>
+                <div>
+                    <h3>Random Colors</h3>
+                    <p>Get new color combinations instantly</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon blue-icon">▢</div>
+                <div>
+                    <h3>Copy Hex Codes</h3>
+                    <p>Click to copy any color code</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
